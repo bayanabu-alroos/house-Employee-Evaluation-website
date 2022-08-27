@@ -12,10 +12,10 @@ function valid() {
     
     if (validate_user(email, password)) {
     
-    setTimeout(function () { location.replace("eva.html"); }, 500);
+    // setTimeout(function () { location.replace("eva.html"); }, 500);
     
     
-    window.location.replace("eva.html")
+    window.open("./eva.html")
     
     // window.open('./test.html')
     
