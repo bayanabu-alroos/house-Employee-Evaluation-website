@@ -13,6 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/evaluation.css">
+      
     <style>
         
     </style>
@@ -68,12 +69,13 @@
         <div class="box">
             <select id="select_name">
 
-                <option>Select Name </option>
-                <option>Basel Nemer</option>
-                <option>Abdullah Alaroud</option>
-                <option>Nancy Ali</option>
-                <option>Bayan abu-alroos</option>
-                <option>yazan obiadat</option>
+                <option value="">Select Name </option>
+                <option value="Basel Nemer">Basel Nemer</option>
+                <option value="Abdullah Alaroud">Abdullah Alaroud</option>
+                <option value="Nancy Ali">Nancy Ali</option>
+                <option value="Bayan abu-alroos">Bayan abu-alroos</option>
+                <option value="yazan obiadat">yazan obiadat</option>
+                <option value="Ahmad yassen">Ahmad yassen</option>
                 
             </select>
 
@@ -94,7 +96,7 @@
 
 
 
-            <div id="p1_text" class="personality" style="display:none ;margin-top: 50px;">
+            <div id="text_1" class="personality" style="display:none ;margin-top: 50px;">
                 <!-- Qustion one -->
 
                 <div class="form-control">
@@ -179,7 +181,7 @@
                             d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
                     </svg>
                 </span></h1>
-            <div id="p2_text" class="Technical" style="display:none ;margin-top: 50px;">
+            <div id="text_2" class="Technical" style="display:none ;margin-top: 50px;">
 
                 <!-- Qustion one -->
 
@@ -260,7 +262,7 @@
                             d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
                     </svg>
                 </span></h1>
-            <div id="p3_text" class="Professional" style="display:none ;margin-top: 50px;">
+            <div id="text_3" class="Professional" style="display:none ;margin-top: 50px;">
                 <!-- Qustion one -->
 
                 <div class="form-control">
@@ -342,6 +344,7 @@
     </footer>
 
 
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/evaluation.js">
 
 

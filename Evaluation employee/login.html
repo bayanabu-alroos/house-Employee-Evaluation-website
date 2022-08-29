@@ -49,9 +49,9 @@ crossorigin="anonymous"></script>
             <li class="nav-item">
                 <a href="sign-up.html" class="nav-link">Sign up </a>
             </li>
-            <li class="nav-item" style="padding-right:30px ;">
+            <!-- <li class="nav-item" style="padding-right:30px ;">
                 <a href="eva.html" class="nav-link">Evaluation</a>
-            </li>
+            </li> -->
             <li class="nav-item" style="padding-right:30px ;">
                 <a href="report_new.html" class="nav-link">Report</a>
             </li>
@@ -68,13 +68,13 @@ crossorigin="anonymous"></script>
 <form onsubmit="return valid()" id="form" action="#" method="get" name="first">
 <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" name="email" id="exampleInputEmail1"aria-describedby="emailHelp" placeholder="username@domain.com">
+    <input type="email" class="form-control" name="email" id="Email_1"aria-describedby="emailHelp" placeholder="username@domain.com">
     <div id="emailtext" class="form-text"></div>
 </div>
 
 <div class="mb-3 mt-3">
     <label for="exampleInputPassword1" class="form-label">Password </label>
-    <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="password ">
+    <input type="password" class="form-control" name="password" id="Password_1" placeholder="password ">
     <i class="bi bi-eye-slash" id="togglePassword"></i>
     <div id="passtext" class="form-text2"></div>
 </div>
@@ -82,8 +82,12 @@ crossorigin="anonymous"></script>
 <br>
 
 <div class="d-grid gap-2">
-    <button type="submit"  style="background-color:orange;color: white; height: 55px; " class="btn btn-block">Log In</button>
+    <button type="submit"style="background-color:orange;color: white; height: 55px; " class="btn btn-block">Log In</button>
 
+
+<br>
+<div>
+        <p>Don't have an account? <a href="./sign-up.html" style="text-decoration: none;">Sign up</a></p></div>
 </div>
 </form>
 
